@@ -20,28 +20,20 @@ Clone the repository and install the necessary dependencies:
 ```bash
 git clone https://github.com/KJ-999/iphone-web-scraping.git
 cd iphone-web-scraping
+```
 
 ## Project Structure
 
 The project is organized with the following structure:
 
-/iphone-web-scraping
-|-- scrape_iphone_data.py
-|-- utils/
-    |-- helpers.py
-|-- README.md
+- Importing necessary libraries
+- Getting Url and User-agent and send requests to get html code
+- Creating functions for extracting metadata
+- Webscraping for only 1 page
+- Automating the process for 'n' number of pages
 
 ## Features
 
 - Web scrapes iPhone data from Flipkart
 - Extracts specific information about iPhones
 - Organizes data for further analysis
-
-
-
-
-
-
-
-
-
